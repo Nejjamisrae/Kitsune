@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.hero{
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 300px;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: safe;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+.content h1{
+    font-size: 160px;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.content h1:hover{
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.content img{
+    width: 300px;
+}
+
+.back-video{
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.genshin{
+    background-color: #24305E;
+}
+.genshin img{
+    position: relative;
+}
+.genshin p{
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+}
+#g1{
+    font-size: 30px;
+    color: #9c6fee;
+    text-align:left;
+    padding-left: 30px;
+}
+#g2{
+    font-size: 30px;
+    color: #9c6fee;
+    text-align:center;
+    
+}
+#g3{
+    font-size: 30px;
+    color: #F76C6C;
+    text-align:center;
+}
+#g4{
+    font-size: 30px;
+    color: #F76C6C;
+    text-align:left;
+    padding-left: 30px;
+}
+
+
+
+.final{
+    background-color: #fff;
+}
+.final p{
+    color: #000;
+    font-size: 20px;
+    padding: 20px;
+}
+.horizon{
+   background-color: #febca7;
+}
+.horizon td{
+    color: #374785;
+    font-size: 20px;
+    padding: 20px;
+}
+#o1{
+    font-size: 30px;
+    color: #fff;
+    text-align:left;
+    padding-left: 30px;
+}
+
+.tomb{
+    background-color: #000;
+}
+#gg1{
+    font-size: 30px;
+    color: #84CEEB;
+    padding-left: 600px;
+}
+#gg2{
+    font-size: 30px;
+    color: #84CEEB;
+    padding-left: 30px;
+    text-align:left;
+}
+
+.tomb p{
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+
+
+
+
+.p1{
+    background-color: #374785;
+    padding: 8px;
+}
+
+.p1 h1{
+    position: relative;
+    left: 40px;
+    color: #84CEEB;
+    font-size: 30px;
+}
+.p1 p{
+    font-size: 25px;
+    color: #fff;
+}
+th{
+    font-size: 20px;
+    color: #8860D0;
+}
+#plus{
+    padding: 40px;
+    color: #F76C6C;
+}
+.Suivez-nous{
+    background-color:hsl(60, 99%, 49%) ; 
+}
+
+
